@@ -1,0 +1,85 @@
+/* experience block */
+.experience {
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  top: -100px;
+  color: rgba(18, 18, 18, 0.86);
+  /* experience-content */
+  /* END experience-content */
+}
+.experience .experience-top {
+  background-image: url("../images/background/ex-2.png");
+}
+.experience .experience-content {
+  background-image: url("../images/background/ex-1.png");
+  padding: 80px 0;
+}
+.experience .experience-content .experience-caption {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.experience .experience-content .container-expirience {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-align-content: stretch;
+      -ms-flex-line-pack: stretch;
+          align-content: stretch;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.experience .experience-content .container-expirience .skills {
+  width: 280px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+}
+.experience .experience-content .container-expirience .skills .img-skill {
+  display: block;
+  max-width: 40%;
+  max-height: 100%;
+  height: auto;
+}
+.experience .experience-content .container-expirience .skills .descrip-skill {
+  width: 80%;
+  margin-top: 10px;
+  line-height: 1.5em;
+  color: #515153;
+  text-align: center;
+}
+.experience .experience-content .container-expirience .p-skill {
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.experience .experience-bottom {
+  background-image: url("../images/background/ex-3.png");
+}
+/* END experience block */
